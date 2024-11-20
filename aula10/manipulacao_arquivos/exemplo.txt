@@ -1,0 +1,2 @@
+Conteudo do arquivo exemplo.txt
+Segunda linhaConteudo do arquivo exemplo.txt
