@@ -19,10 +19,11 @@ contas = [
 soma_credito = 0
 soma_debito = 0
 
+# type("")
 for conta in contas:
-    if conta is Credito:
+    if isinstance(conta, Credito):
         soma_credito += conta.valor
-    elif conta is Debito:
+    elif isinstance(conta, Debito):
         soma_debito += conta.valor
 
 print("Soma credito", soma_credito)

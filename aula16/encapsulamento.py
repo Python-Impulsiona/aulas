@@ -24,7 +24,7 @@ class ContaBancaria:
 conta_joao = ContaBancaria("João", 5000)
 # print(conta_joao.__saldo)
 # conta_joao.titular = "Ricardo"
-# conta_joao.__saldo = 2
+# conta_joao.__saldo = 2  # Erro, não é possível alterar atributo privado
 # print(conta_joao.exibir_saldo())
 
 # conta_joao.depositar(5.25)
